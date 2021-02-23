@@ -23,7 +23,8 @@ classdef ProgressBar < matlab.System
     %          'Bytes' [default: 'Iterations']
     %   UpdateRate - the progress bar's update rate in Hz. Defines the printing
     %                update interval [default: 5 Hz]
-    %
+    %   IsActive - Set to false if you want to not use progress bar (e.g. Headless
+    %               HPC computing context)
     %
     % ProgressBar Methods:
     %   ProgressBar - class constructor
