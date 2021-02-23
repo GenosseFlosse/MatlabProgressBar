@@ -48,6 +48,7 @@ Several projects exist on MATLAB's [File Exchange](https://www.mathworks.com/mat
 - [x] linear ETA estimate over all last iterations
 - [x] support parfor loops provided by the Parallel Computing Toolbox
 - [x] show s/it if it/sec < 1
+- [x] `IsActive` flag for HPC environments, where you don't want to use progress bar; Default is true, set this to false if you want to deactivate progressbar in this loop
 - [ ] have a template functionality like in [minibar](https://github.com/canassa/minibar). Maybe use `regexprep()`?
 
 
